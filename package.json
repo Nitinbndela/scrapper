@@ -1,0 +1,15 @@
+{
+  "name": "sarkari-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for Sarkari Result",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "master": "node master_scraper.js",
+    "master:once": "node master_scraper.js --once"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "puppeteer": "^21.5.2"
+  }
+}
