@@ -4,7 +4,7 @@ const path = require("path");
 
 // Configuration
 const CONFIG = {
-  baseUrl: "https://sarkariresult.com.im/",
+  baseUrl: "https://www.sarkariresult.com/",
   jobsFile: path.join(__dirname, "jobs.json"),
   concurrency: 5, // Number of parallel tabs
   timeout: 60000, // 60 seconds timeout
